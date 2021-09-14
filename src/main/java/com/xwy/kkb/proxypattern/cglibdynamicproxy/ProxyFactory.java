@@ -7,9 +7,11 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * @Classname ProxyFactory
- * @Created by 寂然
+ * @param
+ * @author xwy
  * @Description 代理工厂
+ * @date 14/9/2021 下午4:43
+ * @return
  */
 public class ProxyFactory implements MethodInterceptor {
 
@@ -21,7 +23,7 @@ public class ProxyFactory implements MethodInterceptor {
     }
 
     //定义返回当前目标对象的代理对象的方法
-    public Object getProxyInstance(){
+    public Object getProxyInstance() {
 
         //创建一个工具类
         Enhancer enhancer = new Enhancer();

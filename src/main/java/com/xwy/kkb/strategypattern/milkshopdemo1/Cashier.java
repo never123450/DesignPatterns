@@ -1,9 +1,11 @@
 package com.xwy.kkb.strategypattern.milkshopdemo1;
 
 /**
- * @Classname Cashier
- * @Created by 寂然
- * @Description 收款台
+ * @param
+ * @author xwy
+ * @Description 收银台
+ * @date 14/9/2021 下午5:51
+ * @return
  */
 public class Cashier {
 
@@ -14,10 +16,8 @@ public class Cashier {
     }
 
     //收银计算方法
-    public int countPrice(){
-
+    public int countPrice() {
         int money;
-
         return money = milk.getCount() * milk.getPrice();
     }
 }

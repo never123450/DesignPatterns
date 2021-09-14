@@ -1,9 +1,11 @@
 package com.xwy.kkb.facadepattern.facadedemo1;
 
 /**
- * @Classname Popcorn
- * @Created by 寂然
  * @Description 爆米花机
+ * @author xwy
+ * @date 14/9/2021 上午10:20
+ * @param
+ * @return
  */
 public class Popcorn {
 

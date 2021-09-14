@@ -1,12 +1,13 @@
 package com.xwy.kkb.strategypattern.threestrategydemo;
 
 /**
- * @Classname WifeHelp
- * @Created by 寂然
+ * @param
+ * @author xwy
  * @Description 找老婆帮忙，让孙夫人喝退追兵
+ * @date 14/9/2021 下午6:33
+ * @return
  */
-public class WifeHelp implements IStragegy{
-
+public class WifeHelp implements IStragegy {
 
     @Override
     public void operate() {

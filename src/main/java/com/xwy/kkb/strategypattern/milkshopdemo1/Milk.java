@@ -1,9 +1,11 @@
 package com.xwy.kkb.strategypattern.milkshopdemo1;
 
 /**
- * @Classname Milk
- * @Created by 寂然
+ * @param
+ * @author xwy
  * @Description 牛奶实体类
+ * @date 14/9/2021 下午5:51
+ * @return
  */
 public class Milk {
 

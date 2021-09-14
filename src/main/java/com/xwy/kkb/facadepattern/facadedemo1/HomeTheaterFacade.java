@@ -1,13 +1,14 @@
 package com.xwy.kkb.facadepattern.facadedemo1;
 
 /**
- * @Classname HomeTheaterFacade
- * @Created by ��Ȼ
- * @Description ��ͥӰԺ�������
+ * @param
+ * @author xwy
+ * @Description 家庭影院外观类
+ * @date 14/9/2021 上午10:19
+ * @return
  */
 public class HomeTheaterFacade {
 
-    //�ۺϸ�����ϵͳ
     private Player player;
 
     private Projector projector;
@@ -26,8 +27,7 @@ public class HomeTheaterFacade {
         this.stereo = stereo;
     }
 
-    //���幫���Ľ�������
-    public void ready(){  //׼���׶�
+    public void ready() {
 
         popcorn.on();
 
@@ -38,8 +38,7 @@ public class HomeTheaterFacade {
         stereo.on();
     }
 
-    //����
-    public void play(){
+    public void play() {
 
         player.select();
 
@@ -51,9 +50,8 @@ public class HomeTheaterFacade {
 
     }
 
-    public void end(){
+    public void end() {
 
-        //�������豸ȫ���ر�
         player.off();
 
         popcorn.off();

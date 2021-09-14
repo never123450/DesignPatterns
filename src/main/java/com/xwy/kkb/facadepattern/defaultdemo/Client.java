@@ -1,15 +1,17 @@
 package com.xwy.kkb.facadepattern.defaultdemo;
 
 /**
- * @Classname Client
- * @Created by ��Ȼ
- * @Description �ͻ���
+ * @Description 客户端
+ * @author xwy
+ * @date 14/9/2021 上午10:01
+ * @param
+ * @return
  */
 public class Client {
 
     public static void main(String[] args) {
 
-        //�ͻ���Ҫ�õ������豸�Ķ���
+        //客户端要拿到各个设备的对象
         Player player = Player.getInstance();
 
         Popcorn popcorn = Popcorn.getInstance();
@@ -22,7 +24,7 @@ public class Client {
 
         projector.on();
 
-        stereo.on();//�Դ�����
+        stereo.on();//以此类推
 
         //.....
     }

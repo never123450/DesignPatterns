@@ -1,9 +1,11 @@
 package com.xwy.kkb.strategypattern.milkshopdemo2;
 
 /**
- * @Classname Promition
- * @Created by 寂然
+ * @param
+ * @author xwy
  * @Description 所有商家优惠活动的父类
+ * @date 14/9/2021 下午6:02
+ * @return
  */
 public abstract class Promition {
 

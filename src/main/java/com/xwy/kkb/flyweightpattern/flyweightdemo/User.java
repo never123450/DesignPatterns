@@ -1,9 +1,11 @@
 package com.xwy.kkb.flyweightpattern.flyweightdemo;
 
 /**
- * @Classname User
- * @Created by 寂然
  * @Description 网站的用户
+ * @author xwy
+ * @date 14/9/2021 下午2:41
+ * @param
+ * @return
  */
 public class User {
 

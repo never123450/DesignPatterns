@@ -1,9 +1,11 @@
 package com.xwy.kkb.facadepattern.defaultdemo;
 
 /**
- * @Classname Player
- * @Created by 寂然
  * @Description 播放器
+ * @author xwy
+ * @date 14/9/2021 上午10:03
+ * @param
+ * @return
  */
 public class Player {
 

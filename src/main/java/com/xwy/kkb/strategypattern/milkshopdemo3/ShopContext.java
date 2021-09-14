@@ -1,9 +1,11 @@
 package com.xwy.kkb.strategypattern.milkshopdemo3;
 
 /**
- * @Classname ShopContext
- * @Created by 寂然
+ * @param
+ * @author xwy
  * @Description 环境类
+ * @date 14/9/2021 下午6:22
+ * @return
  */
 public class ShopContext {
 
@@ -16,7 +18,7 @@ public class ShopContext {
     }
 
     //根据收费策略的不同，获取优惠后的结果
-    public int resultPrice(int price){
+    public double resultPrice(int price) {
 
         return promition.countPrice(price);
     }

@@ -1,9 +1,11 @@
 package com.xwy.kkb.flyweightpattern.demo;
 
 /**
- * @Classname Test
- * @Created by 寂然
- * @Description I walk very slowly, but I never walk backwards
+ * @Description
+ * @author xwy
+ * @date 14/9/2021 上午11:26
+ * @param
+ * @return
  */
 public class Test {
 
